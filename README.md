@@ -1,12 +1,12 @@
-# Em português
----
+## Em português
+
 # 🔍 Busca de Operadoras de plano de saude ativas
 
 ## ✨ O Que Este Projeto Faz?  
 
 Imagine precisar encontrar uma operadora de plano de saúde em **Manaus** ou verificar quais estão registradas em **São Paulo**. Este sistema permite:  
 
-- 🔎 **Buscar operadoras** por nome, cidade, UF, Razao_Social  Nome_Fantasia e CNPJ 
+- 🔎 **Buscar operadoras** por nome, cidade, UF, Razao_Social, Nome_Fantasia e CNPJ 
 - 📱 **Interface simples** sem complicações  
 - ⚡ **Resultados instantâneos** enquanto você digita  
 
@@ -20,7 +20,7 @@ Imagine precisar encontrar uma operadora de plano de saúde em **Manaus** ou ver
 ### 🌐 **Parte 1: O Servidor (API)**  
 *"Como um atendente virtual que consulta uma lista gigante"*  
 
-- **Onde os dados ficam?** → Num arquivo seguro (`resources/Relatorio_cadop.csv`)  
+- **Onde os dados ficam?** → Em arquivo seguro (`resources/Relatorio_cadop.csv`)  
 - **Como a busca funciona?** → O servidor:  
   1. Recebe seu termo (ex: "Manaus")  
   2. Filtra 50 resultados mais relevantes  
@@ -74,8 +74,8 @@ Imagine precisar encontrar uma operadora de plano de saúde em **Manaus** ou ver
      *Exemplo: `?q=22869997000153`*
 
 
-# In English
----
+## In English
+
 # 🔍 Search for Active Health Plan Operators
 
 ## ✨ What Does This Project Do?
